@@ -199,7 +199,7 @@ theme(axis.text=element_text(size=15),
 library(ggpubr)
 
 
-jpeg(filename = "C:/GitHub/JewelKnotDecomp/figures/K_multipanel_fixed.jpg",
+jpeg(filename = "C:/GitHub/JewelKnotweedDecomp/figures/K_multipanel.jpg",
      width = 1200, height = 1200, units = "px", quality = 500)
 
 ggarrange(FJ, CJ,FK,CK, ncol = 2, nrow = 2)
